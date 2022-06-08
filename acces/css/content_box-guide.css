@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#box-guide{
+    margin-bottom: 16px;
+}
+
+#box-guide .guide-heading{
+    background-color: #1faa00;
+    font-size: 16px;
+    color: #fff;
+    width: 48%;
+    line-height: 36px;
+    border-radius: 5px 5px 0 0;
+    position: relative;
+    font-weight: bold;
+    padding: 4px 0 4px 16px;
+}
+
+#box-guide .content-guide{
+    border: 1px solid #1faa00;
+    border-top: double #1faa00;
+    border-radius: 0 0 5px 5px;
+}
+
+.content-guide .list-guide{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 16px 16px 0 16px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content-guide .list-guide li{
+    width: 49%;
+    margin: 0;
+    border-bottom: 0;
+    list-style-type: none
+}
+
+.content-guide .list-guide li a{
+    position: relative;
+    display: block;
+    min-height: 80px;
+    max-height: 80px;
+    padding-left: 10px;
+    margin-bottom: 16px;
+    color: rgba(0,0,0,.87);
+    text-decoration: none;
+}
+
+.content-guide .list-guide li:hover a{
+    color: red;
+}
+
+.list-guide li img{
+    border-radius: 3px;
+    position: absolute;
+    left: 0;
+    translate: all 0.2s ease-in-out;
+}
+
+.list-guide li:hover img{
+    transform: scale(1.1);
+}
+
+.list-guide li span{
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    line-height: 25px;
+    padding: 8px 130px;
+    font-size: 20px;
+}

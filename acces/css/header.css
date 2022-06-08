@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* begin: Header */
+#header {
+  font-size: 16px;
+}
+
+#header #logo {
+  position: relative;
+  width: 260px;
+  height: 60px;
+}
+
+#header #logo a {
+  background: url(https://gamevui.vn/themes/default/images/logo-2022.svg) left
+    center no-repeat;
+  text-indent: -9999px;
+  width: 250px;
+  height: 60px;
+  display: inline-block;
+  background-size: auto 48px;
+}
+
+#header #search-box {
+  position: absolute;
+  height: 40px;
+  visibility: visible;
+  top: 12.5px;
+  right: inherit;
+  left: 50%;
+  transform: translateX(-300px);
+  margin-top: 0px;
+  padding-left: inherit;
+}
+
+#header #search-box #search-input {
+  display: inline-block;
+  height: 40px;
+  width: 360px;
+  border: 1px solid rgba(48, 121, 237, 0.5);
+  padding: 8px 0;
+  padding-left: 10px;
+  border-radius: 5px;
+  padding-right: 48px;
+}
+
+#search-box .search-icon {
+  position: absolute;
+  background-color: #039be5;
+  display: flex;
+  height: 40px;
+  width: 48px;
+  align-items: center;
+  justify-content: center;
+  top: 0px;
+  right: 0;
+  text-indent: 1px;
+  border-radius: 0 3px 3px 0;
+  cursor: pointer;
+  color: #fff;
+}
+
+#header #guide {
+  display: block;
+  position: absolute;
+  right: 450px;
+  top: 6px;
+  padding: 14px;
+  padding-bottom: 16px;
+}
+
+#guide .btn-guide {
+  text-decoration: none;
+  color: #000;
+  padding: 0 4px;
+  font-size: 20px;
+}
+
+#guide .btn-guide:hover {
+  color: red;
+}
+
+#guide .guide-icon {
+  font-size: 20px;
+}
+
+#header #account .sign-in {
+  display: block;
+  position: absolute;
+  right: 150px;
+  top: 6px;
+  padding: 14px;
+  padding-bottom: 16px;
+}
+
+#header .sign-in .user-icon {
+  font-size: 20px;
+}
+
+#header .sign-in .btn-sign-in {
+  background: #fff;
+  text-decoration: none;
+  color: #000;
+  padding: 0px 4px;
+  font-size: 20px;
+  border: saddlebrown;
+  cursor: pointer;
+}
+
+#header .btn-sign-in:hover {
+  color: red;
+}
+
+#account .sign-out {
+  display: block;
+  position: absolute;
+  right: 70px;
+  top: 6px;
+  padding: 15px;
+  padding-bottom: 16px;
+}
+
+#account .sign-out .btn-sign-out {
+  font-size: 20px;
+  text-decoration: none;
+  color: #000;
+  padding: -1px 10px;
+  border: saddlebrown;
+  cursor: pointer;
+  background-color: #fff;
+  margin: -1px -2px;
+}
+
+#account .sign-out .btn-sign-out:hover {
+  color: red;
+}

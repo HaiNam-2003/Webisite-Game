@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#content{
+    height: auto !important;
+}
+
+/* Begin: img-top */
+#content .content-section{
+    border: 1px solid #2196f3;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+#content #img-top{
+    position: relative;
+    max-width: 100%;
+    height: 180px;
+    display: block;
+}
+
+#img-top .slider{
+    display: block;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+#img-top .slider a{
+    height: 100%;
+}
+
+#img-top .slider a img{
+    width: 300px;
+    height: 170px;
+    float: left;
+}
+/* End: img-top*/
+
+/* Begin: list-game */
+.list-game{
+    max-width: 100%;
+    position: relative;
+}
+
+.content-section .game-section,
+.content-section .list-box{
+    padding: 0;
+    margin: 0 16px;
+    width: 100%;
+    display: block;
+}
+
+.content-section .game-section li,
+.content-section .list-box li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.game-section a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #000;
+}
+
+.list-game .game-section li img{
+    translate: all 0.2s ease-in-out;
+}
+
+.list-game .game-section li:hover img{
+    transform: scale(1.1);
+}
+
+.list-game .game-section li:hover a{
+    color: red;
+}
+
+.game-section li a span{
+    display: block;
+    width: 111px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+#box{
+    margin-bottom: 16px;
+}
+
+#box .heading{
+    background-color: red;
+    font-size: 16px;
+    color: #fff;
+    width: 48%;
+    line-height: 36px;
+    border-radius: 5px 5px 0 0;
+    position: relative;
+    font-weight: bold;
+    padding: 4px 0 4px 16px;
+}
+
+#box .box-section{
+    border: 1px solid red;
+    border-top: double red;
+    border-radius: 0 0 5px 5px;
+}
+
+.box-section .list-box{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 16px 8px 0 8px;
+}
+
+.list-box li{
+    display: inline-block;
+    width: 10%;
+    margin-bottom: 16px;
+    position: relative;
+    height: auto;
+    padding: 0 20px;
+}
+
+.list-box a{
+    text-decoration: none;
+    color:#000;
+    font-size: 14px;
+}
+
+.list-box a span{
+    display: block;
+    padding-top: 5px;
+    text-align: center;
+    width: 111px;
+}
+
+.list-box li img{
+    translate: all 0.2s ease-in-out;
+}
+
+.list-box li:hover img{
+    transform: scale(1.1);
+}
+
+.list-box li:hover a{
+    color: red;
+}
+
+.box-section .box-more{
+    font-size: 14px;
+    color: #000;
+    display: block;
+    text-align: right;
+    padding-right: 25px;
+    line-height: 35px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    position: relative;
+}
+
+.box-section .box-more:hover{
+    color: red;
+}

@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#box-hot{
+    margin-bottom: 16px;
+}
+
+#box-hot .hot-section{
+    position: relative;
+    background-color: #2196f3;
+    font-size: 16px;
+    font-weight: bold;
+    width: 48%; 
+    color: #fff;
+    line-height: 36px;
+    border-radius: 5px 5px 0 0;
+    padding: 4px 0 4px 16px;
+}
+
+#box-hot .hot-content{
+    border: 1px solid #2196f3;
+    border-top: double #2196f3;
+    border-radius: 0 0 5px 5px;
+}
+
+#box-hot .list-hot{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 16px 8px 0 8px;
+}
+
+.list-hot li{
+    display: inline-block;
+    width: 10%;
+    margin-bottom: 16px;
+    position: relative;
+    height: auto;
+    padding: 0 20px;
+}
+
+.list-hot a{
+    text-decoration: none;
+    color:#000;
+    font-size: 14px;
+}
+
+.list-hot a span{
+    display: block;
+    padding-top: 5px;
+    text-align: center;
+    width: 111px;
+}
+
+.list-hot li img{
+    translate: all 0.2s ease-in-out;
+}
+
+.list-hot li:hover img{
+    transform: scale(1.1);
+}
+
+.list-hot li:hover a{
+    color: red;
+}
+
+.hot-content .box-hot-more{
+    font-size: 14px;
+    color: #000;
+    display: block;
+    text-align: right;
+    padding-right: 25px;
+    line-height: 35px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    position: relative;
+}
+
+.hot-content .box-hot-more:hover{
+    color: red;
+}

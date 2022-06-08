@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.test-note-section{
+    margin: 0 auto 8px auto;
+    text-align: center;
+    padding-top: 8px;
+    border-top: 1px solid #eee;
+    font-size: 15px;
+}
+
+/* footer */
+.section-footer{
+    background-color: #fcfcfc;
+    max-width: 100%;
+    margin: 0 auto;
+    border-top: 2px solid #008000;
+    margin-bottom: 0;
+    padding-top: 8px;
+    display: block;
+}
+
+.section-footer .footer-nav{
+    padding: 0 16px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.footer-nav .group-support{
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: top;
+    min-width: 140px;
+    width: 40%;
+    margin-bottom: 8px;
+}
+
+.footer-nav .group-support li{
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 8px;
+    list-style-type: none;
+}
+
+.list-footer li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-nav .group-support span{ 
+    font-weight: bold;
+    display: block;
+    margin: 8px 0;
+    color: #000;
+    font-size: 20px;
+}
+
+.footer-nav .group-support a:hover{
+    color: red;
+}
+
+.footer-nav .group-fllowing{
+    display: inline-block;
+    vertical-align: top;
+    min-width: 140px;
+    padding-left: 100px;
+    width: 24%;
+    margin-bottom: 8px;
+}
+
+.group-fllowing span{
+    font-weight: bold;
+    display: block;
+    margin: 8px 0;
+    color: #000;
+    font-size: 20px;
+}
+
+.group-fllowing li{
+    list-style-type: none;
+    vertical-align: top;
+    min-width: 140px;
+    width: 24%;
+    margin-bottom: 8px;
+}
+
+.group-fllowing li:hover a{
+    color: red;
+}
+
+span{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
